@@ -1,0 +1,158 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html,body{
+    box-sizing: border-box;
+    background-color: rgb(37, 37, 37);
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.page-title{
+    margin-top: 5%;
+    color: #ffffff;
+}
+.person-info{
+    margin-top: 2%;
+    background-color: rgb(61, 61, 61);
+    width: 40%;
+    padding: 16px 28px;
+    border-radius: 7px;
+    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.432);
+}
+.Image{
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: solid 2px #fff;
+}
+.prerson-picture{
+    display: inline-block;
+    margin-right: 20%;
+}
+.person-informations{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2%;
+    background-color: rgb(37, 37, 37);
+    padding: 12px 22px;
+    border-radius: 7px;
+}
+.person-informations label{
+    display: block;
+    color: #dadada;
+    text-align: left;
+    font-size: 28px;
+}
+.about-me{
+    margin-top: 3%;
+    background-color: rgb(61, 61, 61);
+    width: 40%;
+    padding: 16px 28px;
+    border-radius: 7px;
+    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.432);
+}
+.about-me h3, p{
+    padding: 10px;
+    color: #fff;
+    text-align: left;
+    font-weight: 500;
+}
+.about-me h3{
+    font-size: 28px;
+}
+.about-me p{
+    color: #b3b3b3;
+}
+.contact{
+    margin-top: 3%;
+    background-color: rgb(61, 61, 61);
+    width: 40%;
+    padding: 16px 28px;
+    border-radius: 7px;
+    box-shadow: 1px 3px 15px rgba(0, 0, 0, 0.432);
+    margin-bottom: 5%;
+}
+.contact-title{
+    color: #fff;
+    font-size: 28px;  
+    font-weight: 500;
+    text-align: left;
+}
+.contact-desc{
+    color: #b3b3b3;
+    font-size: 16px;  
+    font-weight: 100;
+    text-align: left;   
+}
+.all-fields{
+    padding: 12px 22px;
+    width: 90%;
+    
+}
+.all-fields input{
+    right: 6rem;
+    padding: 10px;
+    width: 35%;
+    margin: 3px;
+    background-color: #7865e4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 17px;
+}
+.all-fields input:focus{
+    border: solid 1px #fff;
+    outline: none;
+    background-color: #6b58d3;
+}
+.contact textarea{
+    position: relative;
+    background-color: #6b58d3;
+    color: #fff;
+    padding: 12px 22px;
+    height: 18vh;
+    width: 60%;
+    justify-content: left;
+    border-radius: 4px;
+    font-size: 18px;
+    outline: none;
+}
+.contact textarea:focus{
+    border: solid 1px #fff;
+    outline: none;
+    background-color: #6b58d3;
+}
+::placeholder { 
+    color: rgb(255, 255, 255);
+    opacity: 1; 
+  }
+  
+  :-ms-input-placeholder { 
+    color: rgb(255, 255, 255);
+  }
+  
+  ::-ms-input-placeholder { 
+    color: rgb(255, 255, 255);
+  }
+  .btn-send{
+      margin-top: 3%;
+      background: transparent;
+      color: #fff;
+      outline: none;
+      border-radius: 6px;
+      font-size: 16px;
+      border:solid 1px #fff ;
+      padding: 12px 82px;
+      cursor: pointer;
+      transition: all 0.2s;
+  }
+  .btn-send:hover{
+    background-color: #7865e4;
+    transition: all 0.2s;
+    border: solid 1px #7865e4;
+  }
+  .btn-send:active{
+      transform: translateY(-5px);
+      background-color: #5949b6;
+  }
